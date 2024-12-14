@@ -1,0 +1,27 @@
+header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    gap: 2rem;
+    padding: 4rem 0rem;
+}
+.header-title-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.header-title-logo h1 {
+    color: #fff;
+    font-size: 3rem;
+}
+.header-title-logo img {
+    width: 5rem;
+}
+.header-description {
+    color: #e4e2e2;
+    font-size: 1.5rem;
+}

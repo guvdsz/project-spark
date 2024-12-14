@@ -1,0 +1,21 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+#root {
+  padding: 4rem 0rem;
+  flex: 1;
+  display: flex;
+  background-color: #ebeaea;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  border-radius: 1rem;
+  overflow: hidden;
+  width: 75rem;
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+}
