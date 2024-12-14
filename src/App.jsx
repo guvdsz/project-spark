@@ -5,7 +5,7 @@ import FormSection from './components/FormSection'
 import { getProject } from "./IA.js"
 import Project from './components/Project.jsx'
 function App() {
-const [techList, setTechList] = useState([])
+const [techList, setTechList] = useState(["JavaScript"])
 const [project, setProject] = useState("")
 const [loading, setLoading] = useState(false)
 async function suggestProject() {
