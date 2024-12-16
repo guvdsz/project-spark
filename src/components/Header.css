@@ -25,3 +25,8 @@ header {
     color: #e4e2e2;
     font-size: 1.5rem;
 }
+@media screen and (max-width: 552px) {
+    .header-description {
+        font-size: 1.25rem;
+    }
+}
