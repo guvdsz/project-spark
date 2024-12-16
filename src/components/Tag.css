@@ -14,12 +14,14 @@
     }
 }
 .tags span button {
+    all: unset;
     width: fit-content;
     background-color: transparent;
     border: none;
-    cursor: pointer;
+    cursor: pointer; 
 }
 .tags span button i {
+    all: unset;
     color: #666;
     font-size: 1.2rem;
 }
