@@ -10,6 +10,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 2rem 0rem;
 }
 main {
   border-radius: 1rem;
@@ -30,6 +31,7 @@ main {
   }
   #root {
     background-color: #fff;
+    padding: 0rem 0rem;
     justify-content: flex-start;
   }
 }
