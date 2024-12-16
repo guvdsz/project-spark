@@ -1,10 +1,9 @@
 body {
-  min-height: 100vh;
+  min-height: 100dvh;
   display: flex;
   flex-direction: column;
 }
 #root {
-  padding: 4rem 0rem;
   flex: 1;
   display: flex;
   background-color: #ebeaea;
@@ -20,4 +19,17 @@ main {
   max-width: 75rem;
   background-color: #FFFFFF;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+@media screen and (max-width: 552px) {
+  main {
+    min-width: 0;
+    width: 100vw;
+    border-radius: 0;
+    background-color: transparent;
+    box-shadow: none;
+  }
+  #root {
+    background-color: #fff;
+    justify-content: flex-start;
+  }
 }

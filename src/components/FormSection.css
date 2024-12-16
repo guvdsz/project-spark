@@ -29,7 +29,8 @@
 .add-form input[type="submit"] {
   flex: 1;
   cursor: pointer;
-  background-color: transparent;
+  background-color: #fff;
+  color: #333;
   transition: background-color 0.3s;
   font-size: 1.6rem;
   &:hover {
