@@ -1,27 +1,27 @@
-# ProjectSpark
+# ✨ ProjectSpark ✨
 
 ProjectSpark is a web application that helps you ignite your creativity with personalized project ideas based on the technologies you are proficient in. Simply enter the technologies you know, and ProjectSpark will suggest creative and detailed project ideas for you to work on.
 
-## Features
+## 🌟 Features
 
-- Add and remove technologies you are proficient in
-- Get personalized project ideas based on the technologies you know
-- Smooth scrolling to the project ideas section
-- Responsive design for mobile and desktop
+- ➕ Add and remove technologies you are proficient in
+- 💡 Get personalized project ideas based on the technologies you know
+- 🧭 Smooth scrolling to the project ideas section
+- 📱 Responsive design for mobile and desktop
 
-## Technologies Used
+## 🛠️ Technologies Used
 
-- React
-- Vite
-- Hugging Face Inference API
-- React Markdown
-- CSS
+- ⚛️ React
+- ⚡ Vite
+- 🤗 Hugging Face Inference API
+- 📝 React Markdown
+- 🎨 CSS
 
-## Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 
-- Node.js and npm installed on your machine
+- 🖥️ Node.js and npm installed on your machine
 
 ### Installation
 
