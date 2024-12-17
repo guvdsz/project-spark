@@ -6,7 +6,6 @@ ProjectSpark is a web application that helps you ignite your creativity with per
 
 - ➕ Add and remove technologies you are proficient in
 - 💡 Get personalized project ideas based on the technologies you know
-- 🧭 Smooth scrolling to the project ideas section
 - 📱 Responsive design for mobile and desktop
 
 ## 🛠️ Technologies Used
