@@ -33,9 +33,10 @@ ProjectSpark is a web application that helps you ignite your creativity with per
    
 2. Install the dependencies:
 
-Create a .env file in the root of the project and add your Hugging Face API key:
+- Create a .env file in the root of the project and add your Hugging Face API key:
 
-Running the Application
-Start the development server:
+### Running the Application
 
-Open your browser and navigate to http://localhost:3000.
+1. Start the development server:
+
+2. Open your browser and navigate to http://localhost:3000.
