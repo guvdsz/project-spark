@@ -1,5 +1,6 @@
 import { HfInference } from "@huggingface/inference";
-const hf = new HfInference("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");
+const apiKey = import.meta.env.VITE_API_KEY;
+const hf = new HfInference(apiKey);
 export async function getProject(list) {
   const stringTechList = list.join(", ");
 const response = await hf.chatCompletion({
