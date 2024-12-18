@@ -27,7 +27,7 @@ ProjectSpark is a web application that helps you ignite your creativity with per
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/your-username/project-spark.git
+   git clone https://github.com/guvdsz/project-spark.git
    cd project-spark
    
 2. Install the dependencies:
