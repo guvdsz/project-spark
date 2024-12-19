@@ -38,4 +38,5 @@ ProjectSpark is a web application that helps you ignite your creativity with per
 
 1. Start the development server:
 
-2. Open your browser and navigate to http://localhost:3000.
+   ```sh
+   npm run dev
