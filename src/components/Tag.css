@@ -1,6 +1,7 @@
 .tags span {
     display: flex;
     gap: 1rem;
+    cursor: default;
     height: fit-content;
     font-size: 1.5rem;
     background-color: #F4F4F5;
