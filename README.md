@@ -1,4 +1,4 @@
-#⚡ ProjectSpark
+# ⚡ ProjectSpark
 
 ProjectSpark is a web application that helps you ignite your creativity with personalized project ideas based on the technologies you are proficient in. Simply enter the technologies you know, and ProjectSpark will suggest creative and detailed project ideas for you to work on.
 
