@@ -12,7 +12,7 @@ ProjectSpark is a web application that helps you ignite your creativity with per
 
 - ⚛️ React
 - ⚡ Vite
-- 🤗 Hugging Face Inference API
+- 🤗 Google Gemini API
 - 📝 React Markdown
 - 🎨 CSS
 
@@ -32,7 +32,7 @@ ProjectSpark is a web application that helps you ignite your creativity with per
    
 2. Install the dependencies:
 
-- Create a .env file in the root of the project and add your Hugging Face API key:
+- Create a .env file in the root of the project and add your Google Gemini API key:
 
 ### Running the Application
 
