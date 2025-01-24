@@ -1,11 +1,24 @@
 .form-section {
+  border-radius: 1rem;
+  overflow: hidden;
+  width: 75vw;
+  max-width: 75rem;
+  background-color: #FFFFFF;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 3px 20px rgba(0, 0, 0, 0.1);
   height: fit-content;
-  padding: 2rem;
+  padding: 2.5rem;
   justify-content: center;
+  border: 1px solid #ccc;
+}
+.form-section h2 {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+  font-size: 1.5rem;
+  margin-bottom: 2.5rem;
 }
 .form-section .add-form {
   display: flex;
@@ -14,35 +27,40 @@
   margin-bottom: 2rem;
 }
 .add-form input {
-  padding: 1.25rem;
+  padding: 1rem;
   border-radius: 0.5rem;
-  border: 0.1rem solid #333;
+  border: 0.1rem solid #ccc;
   outline: none;
 }
 .add-form input[type="text"] {
-  flex: 6;
+  flex: 8;
   transition: border-color 0.3s, box-shadow 0.3s;
   &:focus {
-    border-color: black;
+    border-color: #171717;
   }
 }
-.add-form input[type="submit"] {
+.add-form > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   flex: 1;
   cursor: pointer;
-  background-color: #fff;
-  color: #333;
-  transition: background-color 0.3s;
+  background-color: #171717;
+  color: #fff;
+  border: 0.1rem solid #ccc;
+  border-radius: 0.5rem;
+  padding: .5rem;
+  transition: opacity 0.3s;
   font-size: 1.6rem;
   &:hover {
-    color: #fff;
-    background-color: #333;
+    opacity: .75;
   }
 }
 .tags {
   width: 100%;
   padding-left: 0.1rem;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   height: fit-content;
   gap: 1rem;
   margin-bottom: 4rem;
@@ -50,19 +68,19 @@
 .submit-idea-btn {
   width: 100%;
   display: flex;
-  height: 5rem;
   justify-content: center;
   align-items: center;
-  background-color: #f4f4f5;
+  gap: .75rem;
+  background-color: #171717;
   border: none;
-  font-size: 1.6rem;
-  padding: 1rem 0rem;
+  font-size: 1.5rem;
+  height: 45px;
   border-radius: 0.5rem;
-  color: #333;
+  color: #fff;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: opacity 0.3s;
   &:hover {
-    color: #fff;
+    opacity: .75;
     background-color: #333;
   }
   &:disabled {
@@ -91,4 +109,16 @@
 .loading {
   background-color: #333;
   color: #fff;
+}
+@media screen and (max-width: 552px) {
+  .form-section {
+    margin-top: 2rem;
+    align-items: center;
+  }
+  .tags {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .add-form > button {
+    flex: 2;
+  }
 }

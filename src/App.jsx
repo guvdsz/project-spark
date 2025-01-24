@@ -26,7 +26,6 @@ function App() {
 
   return (
     <>
-      <main>
         <Header />
         <FormSection
           setTechList={setTechList}
@@ -39,7 +38,6 @@ function App() {
             <Project project={project} />
           </div>
         )}
-      </main>
     </>
   );
 }

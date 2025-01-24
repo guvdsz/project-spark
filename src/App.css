@@ -4,34 +4,10 @@ body {
   flex-direction: column;
 }
 #root {
+  min-height: 100dvh;
   flex: 1;
   display: flex;
-  background-color: #ebeaea;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 2rem 0rem;
-}
-main {
-  border-radius: 1rem;
-  overflow: hidden;
-  width: 75vw;
-  min-width: 35rem;
-  max-width: 75rem;
   background-color: #FFFFFF;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
-}
-@media screen and (max-width: 552px) {
-  main {
-    min-width: 0;
-    width: 100vw;
-    border-radius: 0;
-    background-color: transparent;
-    box-shadow: none;
-  }
-  #root {
-    background-color: #fff;
-    padding: 0rem 0rem;
-    justify-content: flex-start;
-  }
+  flex-direction: column;
+  align-items: center;
 }

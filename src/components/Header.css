@@ -4,7 +4,7 @@ header {
     width: 100%;
     justify-content: center;
     align-items: center;
-    background-color: #222;
+    background-color: transparent;
     gap: 2rem;
     padding: 4rem 0rem;
 }
@@ -12,18 +12,30 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1.5rem;
+    gap: 1rem;
 }
 .header-title-logo h1 {
-    color: #fff;
+    color: #171717;
     font-size: 3rem;
 }
-.header-title-logo img {
-    width: 5rem;
+.header-title-logo icon {
+   font-size: 5rem;
+   color: #fff;
 }
 .header-description {
-    color: #e4e2e2;
+    color: #797979;
     font-size: 1.5rem;
+}
+.powered {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-size: 1.25rem;
+
+}
+.gemini {
+    color: #4285F4;
+    font-size: 1.25rem;
 }
 @media screen and (max-width: 552px) {
     .header-description {
